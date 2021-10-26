@@ -1,0 +1,81 @@
+/* TRANSFORMATIONS */
+
+
+
+
+/* BASE STYLES
+------------------------------------- */
+body {
+    margin: 0;
+    padding: 0em;
+    background-color: rgb(146, 164, 167);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+
+/* NAVIGATION
+------------------------------------- */
+nav {
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+background:transparent);
+text-decoration-color: black;
+
+nav a {
+
+}
+
+nav a:hover {
+
+}
+
+
+
+
+
+/* HOME PAGE
+------------------------------------- */
+main {
+    background-image: url(images/leaf-skeleton.png);
+    background-size: cover; 
+    background-position: center;
+    opacity: 0.25;
+}
+
+.leaf-1{
+    opacity: 1;
+}
+
+
+
+
+/* GALLERY PAGE
+------------------------------------- */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5em;
+    max-width: 50em;
+    margin: 5em auto;
+}
+
+.gallery-item {
+    padding: 0.5em;
+    border: 1px solid black;
+    display: grid;
+    align-items: end;
+    background: white;
+}
+
+
+
